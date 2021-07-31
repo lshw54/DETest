@@ -1,3 +1,4 @@
 .c9/
-venv
+venv/
+__pycache__
 NASA_access_log_Aug95
