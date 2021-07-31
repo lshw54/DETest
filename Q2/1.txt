@@ -1,0 +1,6 @@
+SELECT objectId, id, action, time, COUNT(*) AS count
+FROM clickstream, articles
+WHERE clickstream.objectId = articles.id and clickstream.time <= '2017-04-02 00:00:00' and clickstream.time >= '2017-03-31 23:59:59' and clickstream.action = 'LIKE_ARTICLE'
+GROUP BY clickstream.action, clickstream.time
+ORDER BY count DESC
+LIMIT 10;
