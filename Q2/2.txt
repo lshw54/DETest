@@ -1,0 +1,5 @@
+SELECT count(distinct c1.userId)
+FROM clickstream AS c1, clickstream AS c2
+WHERE (c1.userId = c2.userId)
+AND (c1.action='FIRST_INSTALL' AND c1.time < '2017-04-02' AND c1.time>='2017-04-01') 
+AND (c2.action='LIKE_ARTICLE' AND c2.time >= '2017-04-02' AND c2.time <= '2017-04-01');
