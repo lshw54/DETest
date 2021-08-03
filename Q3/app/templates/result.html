@@ -7,10 +7,36 @@
         <title>Welcome to Vote!</title>
         {% endif %}
     </head>
+    <style>
+    table, th, td {
+      border: 0.5px solid black;
+    }
+    </style>
     <body>
         <h1>Vote Result</h1>
 
-        <h3>{{ result }}</h3>
-        
+        <table style="width:Auto">
+          <tr>
+            <th style="text-align:center">No.</th>
+            <th style="text-align:center">Candidates</th>
+            <th style="text-align:center">Count</th>
+          </tr>
+          <tr>
+            <td style="text-align:center">1</td>
+            <td style="text-align:center">薯片</td>
+            <td style="text-align:center">{{ c1 }} Vote</td>
+          </tr>
+          <tr>
+            <td style="text-align:center">2</td>
+            <td style="text-align:center">林林</td>
+            <td style="text-align:center">{{ c2 }} Vote</td>
+          </tr>
+          <tr>
+            <td style="text-align:center">3</td>
+            <td style="text-align:center">正氣</td>
+            <td style="text-align:center">{{ c3 }} Vote</td>
+          </tr>
+        </table>
+
     </body>
 </html>
