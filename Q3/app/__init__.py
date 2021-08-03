@@ -3,7 +3,7 @@ from flask_sqlalchemy import SQLAlchemy
 from flask_migrate import Migrate
 from app.config import Config
 
-db = SQLAlchemy()
+db = SQLAlchemy(use_native_unicode="utf8")
 migrate = Migrate()
 
 def create_app(config_class=Config):
