@@ -21,8 +21,8 @@ The settings for the different locations are shown below
 
 ### Setup command
 ```bash
-git clone https://github.com/lshw54/HK01-DETest.git
-cd HK01-DETest/Q3
+git clone https://github.com/lshw54/DETest.git
+cd DETest/Q3
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
