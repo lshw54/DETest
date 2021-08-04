@@ -1,6 +1,6 @@
 ## Q3 simple counter
 
-URL : http://ec2-54-86-132-201.compute-1.amazonaws.com:8521
+URL : http://ec2-54-86-132-201.compute-1.amazonaws.com:8521 \
 URL_VOTE_RESULT : http://ec2-54-86-132-201.compute-1.amazonaws.com:8521/result
 
 ### Introduction
