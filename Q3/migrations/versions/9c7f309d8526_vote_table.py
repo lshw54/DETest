@@ -1,8 +1,8 @@
 """Vote Table
 
-Revision ID: 3845c71578ab
+Revision ID: 9c7f309d8526
 Revises: 
-Create Date: 2021-08-03 11:22:33.141931
+Create Date: 2021-08-04 01:26:42.505218
 
 """
 from alembic import op
@@ -10,7 +10,7 @@ import sqlalchemy as sa
 
 
 # revision identifiers, used by Alembic.
-revision = '3845c71578ab'
+revision = '9c7f309d8526'
 down_revision = None
 branch_labels = None
 depends_on = None
